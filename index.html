@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">Ti<span>.</span>ago</div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#formação">Formação</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+          <div id="busca" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Buscar..." />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Portfólio Pessoal</h1>
+          <span class="auto">Tiago Tavares</span>
+          <p>
+            Estudante do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas, 
+            com conclusão prevista para 2023.
+            Em busca de desafios como Desenvolvedor Full-Stack.
+            Conhecimentos na área: Admisnitração, Finanças, Controladoria, 
+            Lógica de programação, HTML, CSS e JavaScript, Python e PHP.
+          </p>
+          <a href="Curriculum Vitae.pdf">
+          <button>Download CV</button>
+          </a>
+        </div>
+        <div class="main-two">
+          <img src="Imagem1.png" alt="" />
+        </div>
+      </div>
+
+      <section class="formação" id="formação">
+        <h1>Minha <br /><span>Formação</span></h1>
+        <p>
+          Conhecimentos na área: Admisnitração, Finanças, Controladoria, 
+          Lógica de programação, HTML, CSS e JavaScript, Python e PHP.
+        </p>
+        <a href="Curriculum Vitae.pdf">
+        <button class="button">Download CV</button>
+        </a>
+        <div class="formação-div flex div-1">
+          <img src="./Images/formação/5.png" alt="" />
+          <h3>Graduação</h3>
+          <p>
+            Administração - UNINTER, Palmas - TO, Agosto/2020.
+          </p>
+          <a href="Diploma_de_Conclusão_Curso_de_Administração_page-0001.jpg"> 
+          <button>Certificado de Conclusão</button>
+        </a>
+        </div>
+        <div class="formação-div flex div-2">
+          <img src="./Images/formação/6.png" alt="" />
+          <h3>Pós Graduação</h3>
+          <p>
+            MBA Gestão Financeira e Controladoria - UNINTER, Palmas - TO, Agosto, 2021.
+          </p>
+          <a href="MBA Gestão Financeira e Controladoria_page-0001.jpg"> 
+            <button>Certificado de Conclusão</button>
+          </a>
+        </div>
+        <div class="formação-div flex div-3">
+          <img src="./Images/formação/7.png" alt="" />
+          <h3>Curso de Formação </h3>
+          <p>
+            Formações em T.I. - ALURA, Palmas - TO, em andamento.
+          </p>
+          <a href="https://unibb.alura.com.br/user/F9342359/fullCertificate/71bf3ddcd971967b861ba738ee5505e4"> 
+            <button>Certificado de Conclusão</button>
+          </a>
+        </div>
+      </section>
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>Sobre</h1>
+          <span>Tiago Tavares</span>
+          <p>
+            Graduado em Administração e com MBA em Finançãs e Controladoria 
+            continou sendo um constante aprendiz, fascinado em contribuir 
+            para o desenvolvimento de pessoas e negócios, 
+            procuro sempre adquirir e compartilhar conhecimentos 
+            e servir à sociedade de forma justa e ética.
+          </p>
+          <div class="btns">
+            <a href="Curriculum Vitae.pdf">
+            <button>Download CV</button>
+            </a>
+            <a href="#contact">
+              <button>Contato</button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <br /><br /><br />
+      <section class="contact" id="contact">
+        <h1>Vamos <span>Conversar!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Nome.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Deixe sua mensagem aqui...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Enviar" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">@copywrite 2022 Ti.ago.</div>
+        <div class="social">
+          <i class="fa-brands fa-instagram">
+            <a href="https://www.instagram.com/tiagodiastavares/"></a></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Tiago Tavares", "R.U 1134003", "Atividade Prática", "Ferrramentas de Desenvolvimento Web."],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
